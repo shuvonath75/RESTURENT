@@ -136,4 +136,63 @@
     padding: 15px 22px 15px 22px;
     border: none;
 }
+#last
+{
+    margin-top: 50px;
+}
+#last .main
+{
+    display: flex;
+
+}
+#last .main .IMG
+{
+    width: 400;
+    height: 300;
+}
+#last .main .MH
+{
+    margin: 100px auto;
+}
+#last .main .MH .title
+{
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    /* letter-spacing: 0%; */
+    text-align: center;
+    margin: 16px;
+}
+#last .main .MH .subtitle
+{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 329;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center; 
+    opacity: 0.8;
+    margin: 1px;
+}
+#last .main .MH .description
+{
+    margin-top: 30px;
+    text-align: center;
+}
+#last .main .MH .media
+{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#last .main .MH .media1
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-right: 3px;
+}
 

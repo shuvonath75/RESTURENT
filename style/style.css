@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Hero
+{
+    height: 431px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+#Hero .H-content
+{
+    width: 480px;
+    padding: 100px 0px 0px 0px ;
+}
+.btn
+{
+    text-align: center;
+}
+.btnd
+{
+    color: white;
+    border-radius: 10px;
+    background: rgb(82, 195, 3);
+    padding: 5px 7px 5px 7px;
+    border: none;
+
+}
+#Hero .H-content .subtitle
+{
+    color: white;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 329;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+    opacity: 0.8;
+    margin-bottom: 10px;
+
+}
+#Hero .H-content .title
+{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#Hero .H-content .description
+{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+ 
+#card-box .container .subtitle
+{
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+#card-box .container .title
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#card-box .card
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    gap: 20px;
+    border-color: white;
+}
+#card-box .card .img
+{
+    margin-bottom: 10px;
+}
+
+#card-box .card .SH
+{
+    
+    text-align: center;
+    /* background-color: rgb(116, 111, 111); */
+    border: 2px solid rgba(82, 195, 3, 0.15);
+    padding: 4px;
+    border-radius: 10px;
+    background: rgba(82, 195, 3, 0.15);
+
+}
+
+#card-box .card .HL
+{
+    opacity: 0.5;
+    text-align: center;
+}
+
+#card-box .card .Discount
+{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#card-box .btn1
+{
+    text-align: center;
+    margin-left: 70px;
+}
+#card-box .btnd1
+{
+    margin-top: 40px;
+    color: white;
+    border-radius: 10px;
+    background: rgb(82, 195, 3);
+    padding: 15px 22px 15px 22px;
+    border: none;
+}
+
